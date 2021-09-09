@@ -1,0 +1,73 @@
+
+body {
+  background-color: black;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+
+}
+ .photo {
+   margin-top: 16px; 
+  text-align: center;
+  object-fit: scale-down;
+ }
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+
+.bio {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 16px;
+  padding: 8px;
+}
+.waveButtonTwo {
+  background-color: silver;
+  cursor: pointer;
+  border: 0;
+  color: black;
+  border-radius: 20px;
+  font-size: 20px;
+  border-color: white;
+  border-block-start-width: 10px;
+  border-block-end-width: 10px;
+  padding: 4px;
+  
+}
+
+.waveButton {
+  background-color: white;
+  cursor: pointer;
+  margin-top: 16px;
+   padding: 8px;
+  border: 0;
+  color: blue;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.about {
+  background-color: white;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  color: blue;
+  border-radius: 5px;
+  font-size: 20px;
+}
